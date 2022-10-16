@@ -1,0 +1,15 @@
+networks:
+  default: development
+
+compiler:
+  evm_version: null
+  solc:
+    version: null
+    optimizer:
+      enabled: true
+      runs: 200
+    remappings:
+      - "@uniswap=Uniswap/v3-core@1.0.0" 
+      
+dependencies:
+  - Uniswap/v3-core@1.0.0
